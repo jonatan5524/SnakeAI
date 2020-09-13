@@ -1,0 +1,45 @@
+-------------------------------------------------------
+                    NEAT Snake
+-------------------------------------------------------
+
+snake that play by himself with improving preformance and neural networks with genetic algorithm
+
+using library tesorFlow using sequential model 
+(neural network layers connected to each other, input to output)
+
+-------------------------------------------------------
+                genetic algorithm
+-------------------------------------------------------
+
+initial population: neural network of random weigths and bias
+
+genotype: neural network
+
+phenotype: each neural network output represent the options of the snake: UP, DOWN, LEFT, RIGHT, NOTHING
+
+fitness: the score of the snake (number of apples eaten)
+
+crossover: maybe copy?
+
+selection: pick by probabilty of fitness with random
+
+mutation: change random weigth of bias of the new neural network
+
+---------------------------------------------------------
+                neural network
+---------------------------------------------------------
+
+inputs:
+        distance of the snake head from the upper wall
+        distance of the snake head from the bottom wall
+        distance of the snake head from the left wall
+        distance of the snake head from the right wall
+        distance of the snake head from the apple
+        length of the snake (?)
+
+output:
+        move right
+        move left
+        move down
+        move up
+        do nothing

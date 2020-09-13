@@ -17,7 +17,7 @@ Snake game self played with genetic algorithm and neural network - NEAT. the gam
 After running the local server for the snake AI, go to the address with the port that presented in the terminal and to the path Snake
 
 ## Example:
-![example](README_images/Capture.png)
+![example](README_Images/Capture.PNG)
 
 ## Algorithm:
 there are multiple snake game, as the number of population count, for each game there is a snake and an apple with its own score, for each snake there is a "brain" - a neural network that decide each turn what move to play.

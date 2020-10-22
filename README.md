@@ -1,6 +1,10 @@
 # SnakeAI
 Snake game self played with genetic algorithm and neural network - NEAT. the game is developed using p5.js framework for the canvas and the game and the tensorflow.js library for the neural network.
 
+## Live demo:
+
+https://jonatan5524.github.io/SnakeAI/Snake
+
 ## Installation:
 
 ### Required:
